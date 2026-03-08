@@ -49,6 +49,7 @@
 %----------------------------------------------------------------------------------------
 \usepackage{url}
 \usepackage{parskip} 	
+\usepackage{soul}
 
 %other packages for formatting
 \RequirePackage{color}
@@ -82,12 +83,13 @@
 \titlespacing{\section}{0pt}{10pt}{10pt}
 
 %for publications
-\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+\usepackage[style=numeric,sorting=ydnt, maxbibnames=99]{biblatex}
 
 %Setup hyperref package, and colours for links
 \usepackage[unicode, draft=false]{hyperref}
-\definecolor{linkcolour}{rgb}{0,0.2,0.6}
-\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\definecolor{linkcolour}{HTML}{BF0707}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour, colorlinks=true}
+
 \addbibresource{citations.bib}
 \setlength\bibitemsep{1em}
 
@@ -122,7 +124,7 @@
     }
 
 
-
+\renewcommand{\arraystretch}{1.5}
 %----------------------------------------------------------------------------------------
 %	BEGIN DOCUMENT
 %----------------------------------------------------------------------------------------
@@ -141,57 +143,85 @@
 % \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
 % \end{tabularx}
 
-\begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\begin{tabularx}{\linewidth}{@{}l@{} l @{}}
+& \multirow{2}{4cm}{\includegraphics[width=0.2\textwidth]{pic.jpeg}}\\
+&\\
+\Huge{Gabriele Benedetti} & \\
+\today \ $|$ \ \href{https://github.com/gbene}{https://github.com/gbene} \ $|$ \ 
+\href{https://gabri.xyz}{https://gabri.xyz} \ $|$ \ 
+\href{mailto:mail@gabri.xyz}{mail@gabri.xyz} \  \ &\\
 \end{tabularx}
 
+% \vspace{2cm}
 %----------------------------------------------------------------------------------------
 % EXPERIENCE SECTIONS
 %----------------------------------------------------------------------------------------
 
-%Interests/ Keywords/ Summary
-\section{Summary}
-This CV can also be automatically compiled and published using GitHub Actions. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
-
 %Experience
 \section{Work Experience}
 
-\begin{jobshort}{Designation}{Jan 2021 - present}
-long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
+\begin{jobshort}{University research assistant}{Feb 2023 - Aug 2025}
+    \textit{University of Milano-Bicocca | Milano, Italy}
+    \begin{itemize}
+        \item Point cloud segmentation procedures for fracture planes extraction
+        \item Right censoring bias estimation and correction for fracture length statistical modelling
+        \item Stochastic DFN parameter calibration
+    \end{itemize}
 \end{jobshort}
 
 
-\begin{joblong}{Designation}{Mar 2019 - Jan 2021}
-\item long long line of blah blah that will wrap when the table fills the column width
-\item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
-\end{joblong}
-  
-%Projects
-\section{Projects}
+\begin{jobshort}{Programmer}{May 2022 - Feb 2023}
+    \textit{Pro Iter Ambiente s.r.l. | Milano, Italy}
+    \newline
+    Development of the PZero software
+    \begin{itemize}
+        \item User interface and quality of life improvements
+        \item Backend refactorization
+        \item Wells and geophyisical profiles integration 
+        \item Streamline input and output with CAD/BIM environments 
+    \end{itemize}
+\end{jobshort}
 
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
-\end{tabularx}
+
+\begin{jobshort}{Programmer}{Nov 2019 - Dic 2019}
+    \textit{Freelance | Milano, Italy}
+
+    Designed and programmed an Agisoft Metashape compatilbe pipeline to calculate the elevation difference between two models. 
+\end{jobshort}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 \section{Education}
-\begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
+\begin{tabularx}{\linewidth}{@{}l X@{} @{}r}	
+2025 - present & PhD in Geophysics\newline \textit{\underline{University of Iceland} | Reykavik, Iceland}& \\
 
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
+2020 - 2022 & \textbf{MSc in Geology and Geodynamis} \newline \textit{\underline{University of Milano-Bicocca} | Milano, Italy} & (110/110 cum laude)\\
+\textbf{Thesis} & \multicolumn{2}{l}{New tools for Digital Outcrop Models analysis: Implementation for
+the PZero software} \\
+\textbf{Keywords} & \multicolumn{2}{p{0.8\textwidth}}{Structural geology data analysis, Full stack development, Principal Component Analysis, Automatic segmentation, Clustering algorithm, VTK}\\
 
-2022 & Class 12th Some Board \hfill  (Grades) \\
+2017-2020 & \textbf{BSc in Geological and Geotechnical sciences} \newline \textit{\underline{University of Milano-Bicocca} | Milano, Italy} & (107/110)\\
+\textbf{Thesis} & \multicolumn{2}{l}{Photogrammetric techniques applied to invertebrate paleontology} \\
+\textbf{Keywords} & \multicolumn{2}{p{0.8\textwidth}}{Photogrammetry, Agisoft Metashape, Preservation and archival}\\
 
-2021 & Class 10th Some Board \hfill  (Grades) \\
+% \newline 
+% \newline 
+% \begin{itemize}
+%     \item \textbf{Thesis}: New tools for Digital Outcrop Models analysis: Implementation for the PZero software
+%     \item \textbf{Key arguments}: Structural geology data analysis, Full stack development, Principal Component Analysis, Automatic segmentation, Clustering algorithm, VTK
+% \end{itemize} \\ 
+
+% 2017-2020 & \textbf{BSc in Geological science and Geotechnics} \hfill  (107/110) 
+% \newline \textit{\underline{University of Milano-Bicocca} | Milano, Italy}
+% \newline
+% \begin{itemize}
+%     \item \textbf{Thesis}: Photogrammetric techniques applied to invertebrate paleontology
+%     \item \textbf{Key arguments}: Photogrammetry, Agisoft Metashape, Preservation and archival
+% \end{itemize} \\ 
+
 \end{tabularx}
+\newpage
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS
@@ -202,16 +232,60 @@ long long line of blah blah that will wrap when the table fills the column width
 \printbibliography[heading=none]
 \end{refsection}
 
+\section{Conferences and Awards}
+\begin{tabularx}{\linewidth}{@{}l X r}	
+
+2025 & \textbf{European Geosciences Union} [\href{https://meetingorganizer.copernicus.org/EGU25/EGU25-13050.html}{link}] & (\textit{Wien, Austria})\\
+& \multicolumn{2}{l}{Asperity cycle simulation using observed seismicity: Applications to the Bardarbunga caldera}\\
+
+2024 & \textbf{Deformation Mechanisms, Rheology and Tectonics} & (\textit{\underline{Best student presentation award}} | \textit{Barcelona, Spain})\\
+& \multicolumn{2}{p{0.8\textwidth}}{Scale independent unbiased statistical length analysis of linear features: Adapting survival analysis techniques to geological applications}\\
+
+2024 & \textbf{European Geosciences Union} [\href{https://meetingorganizer.copernicus.org/EGU24/EGU24-22156.html}{link}] & (\textit{\underline{OSPP award}} | \textit{Wien, Austria})\\
+
+& \multicolumn{2}{l}{FracAbility: A python toolbox for survival analysis in fractured rock systems}\\
+
+2024 & \textbf{Tectonic Studies Group} & (\textit{St. Andrews, UK})\\
+
+& \multicolumn{2}{l}{FracAbility: A python toolbox for survival analysis in fractured rock systems}\\
+
+2023 & \textbf{Congresso congiunto SIMP, SGI, SOGEI, AIV} & (\textit{Potenza, Italy})\\
+
+& \multicolumn{2}{l}{Methods for merging fragmented facets obtained from point cloud segmentation algorithms.}\\
+
+2023 & \textbf{European Geosciences Union} [\href{https://meetingorganizer.copernicus.org/EGU23/EGU23-9549.html}{link}] & (\textit{Wien, Austria})\\
+
+& \multicolumn{2}{l}{Point cloud analysis and segmentation procedures in the PZero software}\\
+
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%----------------------------------------------------------------------------------------
+\section{Projects}
+
+\begin{itemize}
+    \item \href{https://github.com/gbene/HighSeas.jl}{HighSeas.jl} | SEAS simulations with High Performance Computing in mind 
+    \item \href{https://github.com/gbene/Fractalizer.jl}{Fractalizer.jl} | Fractalize any shape
+    \item \href{https://github.com/gecos-lab/FracAbility}{Fracability} | Python toolbox to analyse fracture networks for digitalized rock outcrops. 
+    \item \href{https://github.com/gbene/SirGridsAlot}{SirGridsAlot} | Lighting fast tilable regular grids in python 
+    \item \href{https://github.com/gbene/LandPy}{LandPy} | LandXML parsing library for python 
+\end{itemize}
+% \begin{tabularx}{\linewidth}{ @{}l r@{} }
+% \textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
+% \multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
+% \end{tabularx}
+
+
 %----------------------------------------------------------------------------------------
 %	SKILLS
 %----------------------------------------------------------------------------------------
 \section{Skills}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+\textbf{Languages} & Italian (Native), English (Fluent)\\
+\textbf{Programming languages}  &  Python, Julia, CUDA, MATLAB, Bash, CSS/HTML\\
+\textbf{Libraries} & numpy, pandas/geopandas, shapely, VTK/pyvista, Makie.jl, CUDA.jl, DiffEq.jl\\
+\textbf{Software} & Arc/QGIS, Agisoft Metashape, PZero/SKUA/Petrel/Move, Blender, FreeCAD/KiCAD\\
+\textbf{Technologies} & Git, \LaTeX, Markdown, SLURM, Docker, ssh\\
 \end{tabularx}
-
-\vfill
-\center{\footnotesize Last updated: \today}
-
 \end{document}

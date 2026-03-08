@@ -1,0 +1,252 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{benedetti2026highseas}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c1518bc2b8fd8402d492f33e479b59d9}{%
+           family={Benedetti},
+           familyi={B\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8078fe87b465821eaa749a2dc5ec108e}{%
+           family={Heimisson},
+           familyi={H\bibinitperiod},
+           given={Elías\bibnamedelima Rafn},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb06539f2914a3f30887f825930159e0}
+      \strng{fullhash}{eb06539f2914a3f30887f825930159e0}
+      \strng{bibnamehash}{eb06539f2914a3f30887f825930159e0}
+      \strng{authorbibnamehash}{eb06539f2914a3f30887f825930159e0}
+      \strng{authornamehash}{eb06539f2914a3f30887f825930159e0}
+      \strng{authorfullhash}{eb06539f2914a3f30887f825930159e0}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computational Geosciences}
+      \field{title}{HighSeas.jl Accelerating rate and state simulations with GPUs}
+      \field{year}{In prep.}
+      \true{nocite}
+    \endentry
+    \entry{benedetti2025unbiased}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c1518bc2b8fd8402d492f33e479b59d9}{%
+           family={Benedetti},
+           familyi={B\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0dc138ca815d58295a569fa142b79dd8}{%
+           family={Casiraghi},
+           familyi={C\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c39cbcab8b20a29f70fc58c874e8e912}{%
+           family={Bertacchi},
+           familyi={B\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0a87cd1795e575590f60d441f1b1d168}{%
+           family={Bistacchi},
+           familyi={B\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Copernicus Publications Göttingen, Germany}%
+      }
+      \strng{namehash}{755f2b751699674a0f71d4f3fdff4aa7}
+      \strng{fullhash}{991bcb85c646c2513fe06574d1562a91}
+      \strng{bibnamehash}{991bcb85c646c2513fe06574d1562a91}
+      \strng{authorbibnamehash}{991bcb85c646c2513fe06574d1562a91}
+      \strng{authornamehash}{755f2b751699674a0f71d4f3fdff4aa7}
+      \strng{authorfullhash}{991bcb85c646c2513fe06574d1562a91}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Solid Earth}
+      \field{number}{4/5}
+      \field{title}{Unbiased statistical length analysis of linear features: adapting survival analysis to geological applications}
+      \field{volume}{16}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{367\bibrangedash 390}
+      \range{pages}{24}
+    \endentry
+    \entry{casiraghi2025integrated}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=0dc138ca815d58295a569fa142b79dd8}{%
+           family={Casiraghi},
+           familyi={C\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c1518bc2b8fd8402d492f33e479b59d9}{%
+           family={Benedetti},
+           familyi={B\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c39cbcab8b20a29f70fc58c874e8e912}{%
+           family={Bertacchi},
+           familyi={B\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dffd4a6deaf4622d9974e273436143de}{%
+           family={Mittempergher},
+           familyi={M\bibinitperiod},
+           given={Silvia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=99bdfb0abd07be61deefb8d9542e4a1f}{%
+           family={Agliardi},
+           familyi={A\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+        {{hash=efcba95db8695d8d2dbd935a344c93cf}{%
+           family={Monopoli},
+           familyi={M\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{hash=40c73e46e065f74df865ea66cc5bf073}{%
+           family={La\bibnamedelima Valle},
+           familyi={L\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=898458954eca102fc2604eec1b3b399c}{%
+           family={Martinelli},
+           familyi={M\bibinitperiod},
+           given={Mattia},
+           giveni={M\bibinitperiod}}}%
+        {{hash=25dc4210672c98bf478ef4941eb2b136}{%
+           family={Bigoni},
+           familyi={B\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b96d9f88f59575a16503e4885fa01d55}{%
+           family={Albertini},
+           familyi={A\bibinitperiod},
+           given={Cristian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Copernicus Publications Göttingen, Germany}%
+      }
+      \strng{namehash}{fd5cd922e237173d64a8f908366d5182}
+      \strng{fullhash}{ac5f88aba81343ad83a90e8570045243}
+      \strng{bibnamehash}{ac5f88aba81343ad83a90e8570045243}
+      \strng{authorbibnamehash}{ac5f88aba81343ad83a90e8570045243}
+      \strng{authornamehash}{fd5cd922e237173d64a8f908366d5182}
+      \strng{authorfullhash}{ac5f88aba81343ad83a90e8570045243}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Solid Earth}
+      \field{number}{11}
+      \field{title}{An integrated workflow for parametrization of fracture network geometry in digital outcrop models}
+      \field{volume}{16}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{1351\bibrangedash 1382}
+      \range{pages}{32}
+    \endentry
+    \entry{kosovic2024hydrogeological}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=760a7aa375ec167ec7fe35c4ef29ff61}{%
+           family={Kosović},
+           familyi={K\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=125964616270f4261329c815ddb01df8}{%
+           family={Matoš},
+           familyi={M\bibinitperiod},
+           given={Bojan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=0dc138ca815d58295a569fa142b79dd8}{%
+           family={Casiraghi},
+           familyi={C\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c1518bc2b8fd8402d492f33e479b59d9}{%
+           family={Benedetti},
+           familyi={B\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1fe416a5af59a3ecba62928bffaf724d}{%
+           family={Frangen},
+           familyi={F\bibinitperiod},
+           given={Tihomir},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a388a2983c5a72b7669efc7dd7e93a60}{%
+           family={Urumović},
+           familyi={U\bibinitperiod},
+           given={Kosta},
+           giveni={K\bibinitperiod}}}%
+        {{hash=461d7e6551d9e08e71365616376b304f}{%
+           family={Pavičić},
+           familyi={P\bibinitperiod},
+           given={Ivica},
+           giveni={I\bibinitperiod}}}%
+        {{hash=0a87cd1795e575590f60d441f1b1d168}{%
+           family={Bistacchi},
+           familyi={B\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dffd4a6deaf4622d9974e273436143de}{%
+           family={Mittempergher},
+           familyi={M\bibinitperiod},
+           given={Silvia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=faf3e11fef15f948aa4f15113c4132ed}{%
+           family={Pola},
+           familyi={P\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Hrvatski geološki institut}%
+      }
+      \strng{namehash}{8ee6a37f490dd8a50221a8505fbdd34a}
+      \strng{fullhash}{1c9fb4e112e9861b40f67c264259b869}
+      \strng{bibnamehash}{1c9fb4e112e9861b40f67c264259b869}
+      \strng{authorbibnamehash}{1c9fb4e112e9861b40f67c264259b869}
+      \strng{authornamehash}{8ee6a37f490dd8a50221a8505fbdd34a}
+      \strng{authorfullhash}{1c9fb4e112e9861b40f67c264259b869}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geologia Croatica}
+      \field{number}{2}
+      \field{title}{Hydrogeological parameterisation of the Daruvar thermal aquifer: integration of fracture network analysis and well testing}
+      \field{volume}{77}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{99\bibrangedash 125}
+      \range{pages}{27}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
