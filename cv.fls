@@ -773,10 +773,6 @@ INPUT ./pic.jpeg
 INPUT ./pic.jpeg
 INPUT pic.jpeg
 INPUT ./pic.jpeg
-INPUT ./pic.jpeg
-INPUT ./pic.jpeg
-INPUT pic.jpeg
-INPUT ./pic.jpeg
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
