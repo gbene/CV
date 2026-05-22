@@ -38,14 +38,86 @@
       \strng{authorbibnamehash}{eb06539f2914a3f30887f825930159e0}
       \strng{authornamehash}{eb06539f2914a3f30887f825930159e0}
       \strng{authorfullhash}{eb06539f2914a3f30887f825930159e0}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computational Geosciences}
       \field{title}{HighSeas.jl Accelerating rate and state simulations with GPUs}
-      \field{year}{In prep.}
+      \field{year}{Submitted}
       \true{nocite}
+    \endentry
+    \entry{egusphere-2026-2409}{article}{}
+      \name{author}{9}{}{%
+        {{hash=0dc138ca815d58295a569fa142b79dd8}{%
+           family={Casiraghi},
+           familyi={C\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c39cbcab8b20a29f70fc58c874e8e912}{%
+           family={Bertacchi},
+           familyi={B\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c1518bc2b8fd8402d492f33e479b59d9}{%
+           family={Benedetti},
+           familyi={B\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod}}}%
+        {{hash=dffd4a6deaf4622d9974e273436143de}{%
+           family={Mittempergher},
+           familyi={M\bibinitperiod},
+           given={Silvia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=99bdfb0abd07be61deefb8d9542e4a1f}{%
+           family={Agliardi},
+           familyi={A\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+        {{hash=898458954eca102fc2604eec1b3b399c}{%
+           family={Martinelli},
+           familyi={M\bibinitperiod},
+           given={Mattia},
+           giveni={M\bibinitperiod}}}%
+        {{hash=25dc4210672c98bf478ef4941eb2b136}{%
+           family={Bigoni},
+           familyi={B\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b96d9f88f59575a16503e4885fa01d55}{%
+           family={Albertini},
+           familyi={A\bibinitperiod},
+           given={Cristian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0a87cd1795e575590f60d441f1b1d168}{%
+           family={Bistacchi},
+           familyi={B\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd5cd922e237173d64a8f908366d5182}
+      \strng{fullhash}{598de3dd83ab5792a01e158d91c77878}
+      \strng{bibnamehash}{598de3dd83ab5792a01e158d91c77878}
+      \strng{authorbibnamehash}{598de3dd83ab5792a01e158d91c77878}
+      \strng{authornamehash}{fd5cd922e237173d64a8f908366d5182}
+      \strng{authorfullhash}{598de3dd83ab5792a01e158d91c77878}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EGUsphere (preprint)}
+      \field{title}{Statistical Assessment of the Representative Elementary Area for Areal Fracture Intensity (P21) in Digital Outcrop Models}
+      \field{year}{2026}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 40}
+      \range{pages}{40}
+      \verb{urlraw}
+      \verb https://egusphere.copernicus.org/preprints/2026/egusphere-2026-2409/
+      \endverb
+      \verb{url}
+      \verb https://egusphere.copernicus.org/preprints/2026/egusphere-2026-2409/
+      \endverb
     \endentry
     \entry{benedetti2025unbiased}{article}{}
       \name{author}{4}{}{%
@@ -156,6 +228,7 @@
       \strng{authorbibnamehash}{ac5f88aba81343ad83a90e8570045243}
       \strng{authornamehash}{fd5cd922e237173d64a8f908366d5182}
       \strng{authorfullhash}{ac5f88aba81343ad83a90e8570045243}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
