@@ -1,12 +1,22 @@
-@article{benedetti2026highseas,
-  title={HighSeas.jl Accelerating rate and state simulations with GPUs},
-  author={Benedetti, Gabriele and Elías Rafn Heimisson},
-  journal={Computational Geosciences},
-  year={Submitted},
+@misc{benedettiHighSeasjlAcceleratingRateandstate2026,
+  title = {{{HighSeas}}.Jl: {{Accelerating}} Rate-and-State Simulations with {{GPUs}}},
+  shorttitle = {{{HighSeas}}.Jl},
+  author = {Benedetti, Gabriele and Heimisson, El{\'i}as Rafn},
+  author+an = {1=highlight},
+  year = 2026,
+  month = jun,
+  publisher = {Research Square},
+  issn = {2693-5015},
+  doi = {10.21203/rs.3.rs-9295182/v1},
+  abstract = {Sequences of Earthquakes and Aseismic Slip (SEAS) simulations focus on km scale models and consider all phases of faulting from aseismic slip to earthquake nucleation, propagation and termination. Many codes exist that use different approaches to tackle SEAS simulations; however, solutions designed to leverage the potential of GPUs to parallelize and speed up the simulation are limited. In this work, we propose a GPU parallelized SEAS quasi-dynamic solver written in Julia. We adopt the Spectral Boundary Integral Method (SBIM) to allow higher memory efficiency compared to other mesh-based solvers, thus enabling to efficiently run high resolution simulations. Most of the operations that are carried out in the solver are element wise and thus can be run in parallel on GPUs, significantly cutting down on computation time as the domain resolution increases. To verify the correctness of our solver, we use the BP4-QD benchmark and show comparable results with other outputs hosted by SCEC. We then measure the runtime of the solver on a single multi-core CPU and 2 GPUs, and show speedups up to x7 or x33 depending on the GPU. Finally, we run the BP4-QD problem by decreasing the grid resolution and Dc values and changing the boundary geometry and discuss the results. We simulate up to a grid size of 12.5 m with a Dc close to typical laboratory value (0.7 mm), reaching domains of 67 million points. We observe an emergence of partial ruptures and a wide distribution of magnitudes, making the synthetic earthquake catalog appear much closer to what might be observed on a fault in nature. The used code is provided as an open-source Julia package HighSeas.jl, specifically designed to run vendor-independent GPU accelerated SEAS simulations.},
+  note={PREPRINT (version 1) available at Research Square},
+  archiveprefix = {Research Square}
 }
+
 
 @article{egusphere-2026-2409,
 AUTHOR = {Casiraghi, Stefano and Bertacchi, Daniela and Benedetti, Gabriele and Mittempergher, Silvia and Agliardi, Federico and Martinelli, Mattia and Bigoni, Francesco and Albertini, Cristian and Bistacchi, Andrea},
+AUTHOR+an = {3=highlight},
 TITLE = {Statistical Assessment of the Representative Elementary Area for Areal Fracture Intensity (P21) in Digital Outcrop Models},
 JOURNAL = {EGUsphere (preprint)},
 VOLUME = {},
@@ -18,34 +28,40 @@ URL = {https://egusphere.copernicus.org/preprints/2026/egusphere-2026-2409/}
 @article{casiraghi2025integrated,
   title={An integrated workflow for parametrization of fracture network geometry in digital outcrop models},
   author={Casiraghi, Stefano and Benedetti, Gabriele and Bertacchi, Daniela and Mittempergher, Silvia and Agliardi, Federico and Monopoli, Bruno and La Valle, Fabio and Martinelli, Mattia and Bigoni, Francesco and Albertini, Cristian and others},
+  author+an = {2=highlight},
   journal={Solid Earth},
   volume={16},
   number={11},
   pages={1351--1382},
   year={2025},
-  publisher={Copernicus Publications G{\"o}ttingen, Germany}
+  publisher={Copernicus Publications G{\"o}ttingen, Germany},
+  doi = {https://doi.org/10.5194/se-16-1351-2025}
 }
 
 @article{benedetti2025unbiased,
   title={Unbiased statistical length analysis of linear features: adapting survival analysis to geological applications},
   author={Benedetti, Gabriele and Casiraghi, Stefano and Bertacchi, Daniela and Bistacchi, Andrea},
+  author+an = {1=highlight},
   journal={Solid Earth},
   volume={16},
   number={4/5},
   pages={367--390},
   year={2025},
-  publisher={Copernicus Publications G{\"o}ttingen, Germany}
+  publisher={Copernicus Publications G{\"o}ttingen, Germany},
+  doi={https://doi.org/10.5194/se-16-367-2025}
 }
 
 @article{kosovic2024hydrogeological,
   title={Hydrogeological parameterisation of the Daruvar thermal aquifer: integration of fracture network analysis and well testing},
   author={Kosovi{\'c}, Ivan and Mato{\v{s}}, Bojan and Casiraghi, Stefano and Benedetti, Gabriele and Frangen, Tihomir and Urumovi{\'c}, Kosta and Pavi{\v{c}}i{\'c}, Ivica and Bistacchi, Andrea and Mittempergher, Silvia and Pola, Marco and others},
+  author+an = {4=highlight},
   journal={Geologia Croatica},
   volume={77},
   number={2},
   pages={99--125},
   year={2024},
-  publisher={Hrvatski geolo{\v{s}}ki institut}
+  publisher={Hrvatski geolo{\v{s}}ki institut},
+  doi = {https://doi.org/10.4154/gc.2024.11}
 }
 
 

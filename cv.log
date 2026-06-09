@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.2.8)  22 MAY 2026 15:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.2.8)  9 JUN 2026 18:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -655,24 +655,24 @@ tawesome5
  (./cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -743,9 +743,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'cv.bbl' found.
  (./cv.bbl)
-Package biblatex Info: Reference section=0 on input line 131.
-Package biblatex Info: Reference segment=0 on input line 131.
-Package hyperref Info: Link coloring ON on input line 131.
+Package biblatex Info: Reference section=0 on input line 142.
+Package biblatex Info: Reference segment=0 on input line 142.
+Package hyperref Info: Link coloring ON on input line 142.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -758,60 +758,60 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count422
 )
-LaTeX Info: Redefining \ref on input line 131.
-LaTeX Info: Redefining \pageref on input line 131.
-LaTeX Info: Redefining \nameref on input line 131.
+LaTeX Info: Redefining \ref on input line 142.
+LaTeX Info: Redefining \pageref on input line 142.
+LaTeX Info: Redefining \nameref on input line 142.
 
 (./cv.out) (./cv.out)
 \@outlinefile=\write4
 \openout4 = `cv.out'.
 
 
-Overfull \vbox (68.39272pt too high) detected at line 152
+Overfull \vbox (68.39272pt too high) detected at line 163
  []
 
 File: pic.jpeg Graphic file (type jpg)
 <use pic.jpeg>
-Package pdftex.def Info: pic.jpeg  used on input line 152.
+Package pdftex.def Info: pic.jpeg  used on input line 163.
 (pdftex.def)             Requested size: 107.54904pt x 107.54262pt.
 
-Overfull \vbox (68.39272pt too high) detected at line 152
+Overfull \vbox (68.39272pt too high) detected at line 163
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 152--152
+Underfull \hbox (badness 10000) in alignment at lines 163--163
 [][] 
  []
 
 \c@blx@maxsegment@1=\count423
 \c@blx@sectionciteorder@1=\count424
-Package biblatex Info: Reference section=1 on input line 230.
-Package biblatex Info: Setting label 'refsection:1' on input line 230.
+Package biblatex Info: Reference section=1 on input line 241.
+Package biblatex Info: Setting label 'refsection:1' on input line 241.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pic.jpeg>]
-Package biblatex Info: Reference section=0 on input line 233.
+Package biblatex Info: Reference section=0 on input line 244.
  [2]
-Underfull \hbox (badness 3849) in paragraph at lines 300--300
+Underfull \hbox (badness 3849) in paragraph at lines 311--311
 []|\OT1/cmr/m/n/12 Arc/QGIS, Ag-isoft Metashape, PZero/SKUA/Petrel/Move, Blende
 r,
  []
 
 [3] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: BF3B30E036CCA502AD9BE911D260E965;700.
+(rerunfilecheck)             Checksum: E6725667C67F3EF811F837F0EFC58F11;700.
 Package logreq Info: Writing requests to 'cv.run.xml'.
 \openout1 = `cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20964 strings out of 478287
- 379833 string characters out of 5849290
- 1087338 words of memory out of 5000000
- 38939 multiletter control sequences out of 15000+600000
+ 20976 strings out of 478287
+ 380337 string characters out of 5849290
+ 1087382 words of memory out of 5000000
+ 38951 multiletter control sequences out of 15000+600000
  474668 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,12n,68p,1191b,1368s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,68p,1888b,1371s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-di
@@ -821,10 +821,10 @@ s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1
 amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmtt12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on cv.pdf (3 pages, 216548 bytes).
+Output written on cv.pdf (3 pages, 219773 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
+ 138 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
  16 named destinations out of 1000 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
 

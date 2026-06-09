@@ -125,6 +125,17 @@
 
 
 \renewcommand{\arraystretch}{1.5}
+
+\renewcommand*{\mkbibnamegiven}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {#1}}
+
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {#1}}
+
 %----------------------------------------------------------------------------------------
 %	BEGIN DOCUMENT
 %----------------------------------------------------------------------------------------
@@ -271,13 +282,13 @@
 %----------------------------------------------------------------------------------------
 %	PROJECTS
 %----------------------------------------------------------------------------------------
-\section{Projects}
+\section{SOFTWARE}
 
 \begin{itemize}
 
-    \item \href{https://github.com/gbene/HighSeas.jl}{HighSeas.jl} | SEAS simulations with High Performance Computing in mind 
+    \item \href{https://github.com/gbene/HighSeas.jl}{HighSeas.jl} | SEAS simulations with High Performance Computing in mind (\href{https://doi.org/10.5281/zenodo.19372420}{Zenodo})
+    \item \href{https://github.com/gecos-lab/FracAbility}{Fracability} | Python toolbox to analyse fracture networks for digitalized rock outcrops (\href{https://doi.org/10.5281/zenodo.14893964}{Zenodo})
     \item \href{https://github.com/gbene/Squiggles.jl}{Squiggles.jl} | Julia package to accelerate 1D cross correlations of seismic signals using any GPU
-    \item \href{https://github.com/gecos-lab/FracAbility}{Fracability} | Python toolbox to analyse fracture networks for digitalized rock outcrops 
     \item \href{https://github.com/gbene/Fractalizer.jl}{Fractalizer.jl} | Fractalize any shape
     \item \href{https://github.com/gbene/SirGridsAlot}{SirGridsAlot} | Lighting fast tilable regular grids in python 
 \end{itemize}

@@ -19,7 +19,7 @@
 
 \refsection{1}
   \datalist[entry]{ydnt/global//global/global}
-    \entry{benedetti2026highseas}{article}{}
+    \entry{benedettiHighSeasjlAcceleratingRateandstate2026}{misc}{}
       \name{author}{2}{}{%
         {{hash=c1518bc2b8fd8402d492f33e479b59d9}{%
            family={Benedetti},
@@ -32,20 +32,32 @@
            given={Elías\bibnamedelima Rafn},
            giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
+      \list{publisher}{1}{%
+        {Research Square}%
+      }
       \strng{namehash}{eb06539f2914a3f30887f825930159e0}
       \strng{fullhash}{eb06539f2914a3f30887f825930159e0}
       \strng{bibnamehash}{eb06539f2914a3f30887f825930159e0}
       \strng{authorbibnamehash}{eb06539f2914a3f30887f825930159e0}
       \strng{authornamehash}{eb06539f2914a3f30887f825930159e0}
       \strng{authorfullhash}{eb06539f2914a3f30887f825930159e0}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computational Geosciences}
-      \field{title}{HighSeas.jl Accelerating rate and state simulations with GPUs}
-      \field{year}{Submitted}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Sequences of Earthquakes and Aseismic Slip (SEAS) simulations focus on km scale models and consider all phases of faulting from aseismic slip to earthquake nucleation, propagation and termination. Many codes exist that use different approaches to tackle SEAS simulations; however, solutions designed to leverage the potential of GPUs to parallelize and speed up the simulation are limited. In this work, we propose a GPU parallelized SEAS quasi-dynamic solver written in Julia. We adopt the Spectral Boundary Integral Method (SBIM) to allow higher memory efficiency compared to other mesh-based solvers, thus enabling to efficiently run high resolution simulations. Most of the operations that are carried out in the solver are element wise and thus can be run in parallel on GPUs, significantly cutting down on computation time as the domain resolution increases. To verify the correctness of our solver, we use the BP4-QD benchmark and show comparable results with other outputs hosted by SCEC. We then measure the runtime of the solver on a single multi-core CPU and 2 GPUs, and show speedups up to x7 or x33 depending on the GPU. Finally, we run the BP4-QD problem by decreasing the grid resolution and Dc values and changing the boundary geometry and discuss the results. We simulate up to a grid size of 12.5 m with a Dc close to typical laboratory value (0.7 mm), reaching domains of 67 million points. We observe an emergence of partial ruptures and a wide distribution of magnitudes, making the synthetic earthquake catalog appear much closer to what might be observed on a fault in nature. The used code is provided as an open-source Julia package HighSeas.jl, specifically designed to run vendor-independent GPU accelerated SEAS simulations.}
+      \field{eprinttype}{Research Square}
+      \field{issn}{2693-5015}
+      \field{month}{6}
+      \field{note}{PREPRINT (version 1) available at Research Square}
+      \field{shorttitle}{{{HighSeas}}.Jl}
+      \field{title}{{{HighSeas}}.Jl: {{Accelerating}} Rate-and-State Simulations with {{GPUs}}}
+      \field{year}{2026}
       \true{nocite}
+      \verb{doi}
+      \verb 10.21203/rs.3.rs-9295182/v1
+      \endverb
+      \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
     \entry{egusphere-2026-2409}{article}{}
       \name{author}{9}{}{%
@@ -118,6 +130,7 @@
       \verb{url}
       \verb https://egusphere.copernicus.org/preprints/2026/egusphere-2026-2409/
       \endverb
+      \annotation{item}{author}{default}{3}{}{0}{highlight}
     \endentry
     \entry{benedetti2025unbiased}{article}{}
       \name{author}{4}{}{%
@@ -163,6 +176,10 @@
       \true{nocite}
       \field{pages}{367\bibrangedash 390}
       \range{pages}{24}
+      \verb{doi}
+      \verb https://doi.org/10.5194/se-16-367-2025
+      \endverb
+      \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
     \entry{casiraghi2025integrated}{article}{}
       \true{moreauthor}
@@ -241,6 +258,10 @@
       \true{nocite}
       \field{pages}{1351\bibrangedash 1382}
       \range{pages}{32}
+      \verb{doi}
+      \verb https://doi.org/10.5194/se-16-1351-2025
+      \endverb
+      \annotation{item}{author}{default}{2}{}{0}{highlight}
     \endentry
     \entry{kosovic2024hydrogeological}{article}{}
       \true{moreauthor}
@@ -318,6 +339,10 @@
       \true{nocite}
       \field{pages}{99\bibrangedash 125}
       \range{pages}{27}
+      \verb{doi}
+      \verb https://doi.org/10.4154/gc.2024.11
+      \endverb
+      \annotation{item}{author}{default}{4}{}{0}{highlight}
     \endentry
   \enddatalist
 \endrefsection
